@@ -1,0 +1,27 @@
+/* Paleta de cores para o Arte da Leitura */
+.Tons_de_Branco {
+    color: White, #FFFFFF, rgb(255, 255, 255);
+} 
+.Tons_de_Preto {
+    color: Black, #000000, rgb(0, 0, 0);
+    color: DimGray, #696969, rgb(105, 105, 105); 
+}
+.Tons_de_Azul {
+    color: Blue, #0000FF, rgb(0, 0, 255);
+    color: SkyBlue, #87CEEB, rgb(135, 206, 235);
+    color: SteelBlue, #4682B4, rgb(70, 130, 180);
+    color: MidnightBlue, #191970, rgb(25, 25, 112);
+}
+.Tons_de_Ciano {
+    color: DarkCyan, #008B8B, rgb(0, 139, 139);
+    color: DarkTurquoise,	#00CED1, rgb(0, 206, 209);
+}
+
+/* Outras Cores Ultilizadas */
+
+.Botoes {
+    background-color: rgb(7, 60, 233);
+}
+.Fundo_Geral {
+    background-color: linear-gradient(90deg, rgba(6,30,126,1) 1%, rgba(15,67,228,1) 53%, rgba(7,41,181,1) 98%);
+}
