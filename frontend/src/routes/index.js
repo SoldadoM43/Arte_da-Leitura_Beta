@@ -1,11 +1,11 @@
-import {Route, BrowserRouter} from "react-router-dom";
+import {BrowserRouter, Route} from "react-router-dom";
 
-import Home from "../pages/Home/index";
+import Inicio from "../pages/Telas/Inicio/index";
 
 const Routes = () => {
     return (
         <BrowserRouter>
-            <Route path="/" element={Home} exact />
+            <Route path="/" component={Inicio} />
         </BrowserRouter>
     );
 }
