@@ -1,5 +1,7 @@
 import './styles.css';
 
+import {useState} from "react";
+
 import Logo from "../../../assets/Logo.png"
 
 const Cadastro = () => {
@@ -11,17 +13,17 @@ const Cadastro = () => {
                     <div className='div_logo'>
                         <img src={Logo} alt="Logo" className="logo"/>
                     </div>
-                    <div className='inputs'>
-                        <input className='nome' id="nome" type="text" name='nome' placeholder="Nome Completo" required/>
+                    <div className="inputs">
+                        <input className='nome' id="nome" type="text" name='nome' placeholder="Nome Completo" required />
                         <br />    
                         <input className='rm' id="rm" type="text" name='rm' placeholder="RM" required/>
                         <br />
-                        <input className='email' id="email" type="text" name='email' placeholder="E-mail Institucional" required/>
+                        <input className='email' id="email" type="text" name='email' placeholder="E-mail Institucional" required />
                         <br />
                         <input className='email' id="email" type="password" name='senha' placeholder="Senha" required/>
                     </div>
                     <div className='botao'>
-                        <button className='btn1'>Cadastrar</button>
+                        <button className='btn1' type="submit">Cadastrar</button>
                     </div>
                 </main>
             </div>
