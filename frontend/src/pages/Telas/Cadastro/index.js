@@ -1,8 +1,7 @@
 import './styles.css';
 
-import {useState} from "react";
-
 import Logo from "../../../assets/Logo.png"
+import { Link } from 'react-router-dom';
 
 const Cadastro = () => {
     return (
@@ -23,7 +22,9 @@ const Cadastro = () => {
                         <input className='email' id="email" type="password" name='senha' placeholder="Senha" required/>
                     </div>
                     <div className='botao'>
-                        <button className='btn1' type="submit">Cadastrar</button>
+                        <Link to="/login">
+                            <button className='btn1' type="submit">Cadastrar</button>
+                        </Link>
                     </div>
                 </main>
             </div>

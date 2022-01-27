@@ -1,6 +1,7 @@
 import './styles.css';
 
 import Logo from "../../../assets/Logo.png"
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     return (
@@ -18,9 +19,11 @@ const Login = () => {
                         <br />
                         <br />
                         <br />
-                        <button className='btn1'>Acessar</button>
+                        <Link to="/home">
+                            <button className='btn1'>Acessar</button>
+                        </Link>
                         <br />
-                        <a className='link' href='#'>Esqueci Minha Senha</a>
+                        <Link className='link' to='/senha'>Esqueci Minha Senha</Link>
                     </div>
                 </main>
             </div>

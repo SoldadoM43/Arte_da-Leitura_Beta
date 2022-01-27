@@ -1,6 +1,7 @@
 import './styles.css';
 
 import Logo from "../../../assets/Logo.png"
+import { Link } from 'react-router-dom';
 
 const Inicio = () => {
     return (
@@ -13,10 +14,14 @@ const Inicio = () => {
                     </div>
                     <div className='botoes'>
                         <div className='div_btn'>
-                        <button className='btn1'>Acessar</button>
+                            <Link to="/login">
+                                <button className='btn1'>Acessar</button>
+                            </Link>
                         </div>
                         <div className='div_btn'>
-                            <button className='btn2'>Cadastrar</button>
+                            <Link to="/cadastro">
+                                <button className='btn2'>Cadastrar</button>
+                            </Link>
                         </div>
                     </div>
                 </main>

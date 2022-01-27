@@ -3,6 +3,8 @@ import "./styles.css";
 import Perfil from "../../assets/Perfil.jpg";
 import Logo from "../../assets/Logo.png";
 
+import {Link} from "react-router-dom";
+
 import {FiMail} from "react-icons/fi"
 import {GoBook} from "react-icons/go";
 import {IoHome} from "react-icons/io5";
@@ -17,18 +19,19 @@ const Menu = () => {
         <>
             <div className="topo_sidebar">
                 <img className="img" src={Logo} alt="Logo" height="70px" width="70px"/>
+                <p className="nome_sistema">Arte da Leitura</p>
             </div>
             <div className="navigation">
                 <ul>
                     <li className='list'>
-                        <a href="home">
+                        <Link to="/home">
                             <span className="text"><IoHome className='icone'/> Home</span>
-                        </a>
+                        </Link>
                     </li>
                     <li className='list'>
-                        <a href="bibliotecas">
+                        <Link to="/bibliotecas">
                             <span className="text"><GoBook className='icone'/> Bibliotecas</span>
-                        </a>
+                        </Link>
                     </li>
                     <li className='list'>
                         <a href="favoritos">

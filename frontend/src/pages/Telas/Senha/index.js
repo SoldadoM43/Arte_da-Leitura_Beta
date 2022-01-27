@@ -1,6 +1,7 @@
 import './styles.css';
 
 import Logo from "../../../assets/Logo.png"
+import { Link } from 'react-router-dom';
 
 const Senha = () => {
     return (
@@ -20,7 +21,9 @@ const Senha = () => {
                         <br />
                         <br />
                         <br />
-                        <button className='btn1'>Enviar</button>
+                        <Link to="/login">
+                            <button className='btn1'>Enviar</button>
+                        </Link>
                     </div>
                 </main>
             </div>
