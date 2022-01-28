@@ -1,5 +1,7 @@
 
 import "./styles.css";
+import {Container} from "../../styles/global";
+import { Biblioteca, Titulo, Frase } from "./styles";
 
 import Menu from "../../components/Menu/index";
 import CardPreviaFisica from "../../components/Cards/Previas/BFisica";
@@ -8,30 +10,29 @@ const Bibliotecas = () => {
     return (
         <>
             <Menu />
-            <div className="container">
-                <div className="biblioteca">
-                    <p className="titulo">Biblioteca Física</p>
-                    <p className="frase">Possibilidade de reservar um livro físico para buscar.</p>
-                    <CardPreviaFisica />
+            <Container>
+                <Biblioteca>
+                    <Titulo>Biblioteca Física</Titulo>
+                    <Frase>Possibilidade de reservar um livro físico para buscar.</Frase>
                     <button className="btn">Ver Biblioteca</button>
-                </div>
+                </Biblioteca>
                 <br />
                 <br />
-                <div className="biblioteca">
-                    <p className="titulo">Biblioteca Virtual</p>
-                    <p className="frase">Possibilidade de baixar um livro virtual e le-lo onde quiser.</p>
+                <Biblioteca>
+                    <Titulo>Biblioteca Virtual</Titulo>
+                    <Frase>Possibilidade de baixar um livro virtual e le-lo onde quiser.</Frase>
                     <button className="btn">Ver Biblioteca</button>
-                </div>
+                </Biblioteca>
                 <br />
                 <br />
-                <div className="biblioteca">
-                    <p className="titulo">Biblioteca Híbrida</p>
-                    <p className="frase">Possibilidade de escolher entre um livro físico ou um livro virtual para ler.</p>
+                <Biblioteca>
+                    <Titulo>Biblioteca Híbrida</Titulo>
+                    <Frase>Possibilidade de escolher entre um livro físico ou um livro virtual para ler.</Frase>
                     <button className="btn">Ver Biblioteca</button>
-                </div>
+                </Biblioteca>
                 <br />
                 <br />
-            </div>
+            </Container>
         </>
     );
 }
