@@ -12,7 +12,7 @@ import {BsBookmark} from "react-icons/bs";
 import {BiHelpCircle} from "react-icons/bi";
 // import {HiOutlineLogin} from "react-icons/hi";
 import {AiOutlineInfoCircle} from "react-icons/ai"; 
-import {IoMdHeartEmpty, IoMdNotificationsOutline} from "react-icons/io";
+import {IoMdHeartEmpty, IoMdNotificationsOutline, IoIosConstruct} from "react-icons/io";
 
 const Menu = () => {
     return (
@@ -25,42 +25,74 @@ const Menu = () => {
                 <ul>
                     <li className='list'>
                         <Link to="/home">
-                            <span className="text"><IoHome className='icone'/> Home</span>
+                            <span className="text">
+                                <IoHome className='icone'/> 
+                                Home
+                                <IoIosConstruct className='icone2'/>
+                            </span>
                         </Link>
                     </li>
                     <li className='list'>
                         <Link to="/bibliotecas">
-                            <span className="text"><GoBook className='icone'/> Bibliotecas</span>
+                            <span className="text">
+                                <GoBook className='icone'/> 
+                                Bibliotecas 
+                                <IoIosConstruct className='icone2'/>
+                            </span>
                         </Link>
                     </li>
                     <li className='list'>
                         <a href="favoritos">
-                            <span className="text"><IoMdHeartEmpty className='icone'/> Favoritos</span>
+                            <span className="text">
+                                <IoMdHeartEmpty className='icone'/> 
+                                Favoritos 
+                                <IoIosConstruct className='icone2'/>
+                            </span>
                         </a>
                     </li>
                     <li className='list'>
                         <a href="salvos">
-                            <span className="text"><BsBookmark className='icone'/> Salvos</span>
+                            <span className="text">
+                                <BsBookmark className='icone'/> 
+                                Salvos 
+                                <IoIosConstruct className='icone2'/>
+                            </span>
                         </a>
                     </li>
                     <li className='list'>
                         <a href="ajuda">
-                            <span className="text"><BiHelpCircle className='icone'/> Ajuda</span>
+                            <span className="text">
+                                <BiHelpCircle className='icone'/>
+                                Ajuda 
+                                <IoIosConstruct className='icone2'/>
+                            </span>
                         </a>
                     </li>
                     <li className='list'>
                         <a href="informacoes">
-                            <span className="text"><AiOutlineInfoCircle className='icone'/> Informações</span>
+                            <span className="text">
+                                <AiOutlineInfoCircle className='icone'/> 
+                                Informações 
+                                <IoIosConstruct className='icone2'/>
+                            </span>
                         </a>
                     </li>
                     <li className='list'>
                         <a href="menssagens">
-                            <span className="text"><FiMail className='icone'/> Mensagens</span>
+                            <span className="text">
+                                <FiMail className='icone'/> 
+                                Mensagens 
+                                <IoIosConstruct className='icone2'/>
+                            </span>
                         </a>
                     </li>
                     <li className='list'>
                         <a href="notificacoes">
-                            <span className="text"><IoMdNotificationsOutline className='icone'/> Notificações</span>
+                            <span className="text">
+                                <IoMdNotificationsOutline className='icone'/> 
+                                Notificações 
+                                <IoIosConstruct className='icone2'/>
+                            </span>
                         </a>
                     </li>
                     <li className='list2'>

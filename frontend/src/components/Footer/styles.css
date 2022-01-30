@@ -1,0 +1,18 @@
+table {
+    width: 100%;
+    height: auto;
+}
+td {
+    margin: 0;
+    padding: 0;
+}
+.icon {
+    color: white;
+    font-size: 20px;
+    background: none;
+}
+.link {
+    color: white;
+    background: none;
+    text-decoration: none;
+}

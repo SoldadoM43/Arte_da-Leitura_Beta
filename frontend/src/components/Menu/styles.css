@@ -119,6 +119,12 @@ body {
     flex-direction: row;
 
 }
+.icone2 {
+    font-size: 22px;
+    margin-left: 10px;
+    flex-direction: row;
+
+}
 .navigation ul li a .text {
     height: 50px;
     display: block;
